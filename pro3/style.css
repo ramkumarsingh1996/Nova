@@ -1,0 +1,662 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --font-primary: 'Yanone Kaffeesatz', sans-serif;
+    --font-secondary: 'Roboto', sans-serif;
+    --text-primary-color: #434a54;
+    --text-secondary-color: #656d78;
+    --background-color:#f3f4f8;
+    --primary-color: #48cfae;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.up-btn{
+width: 2rem;
+height: 2rem;
+background-color: var(--primary-color);
+position: absolute;
+right: 2rem;
+bottom: 2rem;
+position: fixed;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top{
+    text-align: center;
+}
+
+h2{
+    font-family: var(--font-primary);
+    color: var(--text-primary-color);
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    padding: 3% 0;
+}
+
+h3{
+    text-transform: uppercase;
+    color: var(--text-primary-color);
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    padding-bottom: 6%;
+}
+
+p{
+    font-family: var(--font-secondary);
+    color: var(--text-secondary-color);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 4%;
+}
+
+.btn-1{
+    width: 10rem;
+    font-family: var(--font-primary);
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 3px solid #aab2bd;
+    border-radius: 3%;
+    background-color: transparent;
+    margin-top: 8%;
+    padding: 1% 4%;
+}
+
+.icon{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 0 2%;
+}
+
+/* banner started here  */
+.banner{
+    background-image: url(../image/header-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #ffffff;
+    padding: 3% 0;
+
+}
+
+.banner .top1 .topleft{
+    width: 20%;
+    float: left;
+    padding-right: 3%;
+}
+
+.banner .top1 .topleft img{
+    width: 50%;
+}
+
+.banner .top1 .topright{
+    width: 50%;
+    float: right;
+    padding-left: 8%;
+}
+
+.banner ul li{
+    float: left;
+    font-family: var(--font-primary);
+    font-size: 1.4rem;
+    list-style: none;
+    margin: 0 3%;
+    color: #ffffff;
+}
+
+.banner .bottom{
+    text-align: center;
+    clear: both;
+    padding: 20%;
+}
+
+.banner .bottom h1{
+    font-family: var(--font-primary);
+    font-size: 5rem;
+    letter-spacing: -0.1rem;
+    font-weight: 400;
+}
+
+
+.banner .bottom p{
+    font-family: var(--font-secondary);
+    color: #ffffff;
+}
+/* banner started here  */
+
+/* section1 started here  */
+.section1{
+    clear: both;
+    padding: 7% 0;
+    min-height: 35rem;
+}
+
+.section1 .box{
+    width: 33%;
+    float: left;    
+    padding: 0 1%;
+    margin: 2.5% 0;
+}
+
+.section1 .box ul{
+    list-style: none;
+    float: left;
+}
+
+.section1 .box ul .fontleft{
+    width: 10%;
+    float: left;
+}
+
+.section1 .box ul .fontright{
+    width: 85%;
+    float: left;
+    padding-left: 1%;
+}
+
+.section1 .box h3{
+    text-transform: uppercase;
+    color: var(--text-primary-color);
+    font-family: var(--font-primary);
+}
+
+.section1 .box p{
+    color: var(--text-secondary-color);
+    font-family: var(--font-secondary);
+}
+
+.section1 .box i{
+color: #48cfae;
+font-size: 1.7rem;
+padding-bottom: 4%;
+}
+/* section1 finished here  */
+
+/* works started here  */
+.works{
+    clear: both;
+    padding-top: 2%;
+    background-color: #f3f4f8;
+    min-height: 66rem;
+
+}
+
+.works .sec2top{
+    width: 40%;
+    margin: 0 auto;
+    clear: both;
+    height: 3rem;
+    padding-left: 5%;
+}
+
+.works .sec2top ul{
+    list-style: none;
+}
+
+.works .sec2top ul li{
+    float: left;
+    padding: 0.9% 3%;
+    margin: 0 1.5%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: var(--font-primary);
+    color: var(--text-secondary-color);
+    text-transform: uppercase;
+}
+
+.works .sec2top ul .activeli{
+    color: white;
+    background-color: #48cfae;
+    border-radius: 10%;
+}
+
+.works .line{
+    clear: both;
+    height: 15rem;
+    padding-left: 2%;
+}
+
+.works .line .box{
+    width: 22%;
+    margin: 1%;
+    height: 90%;
+    float: left;
+}
+
+.works .line .bbox{
+    width: 48%;
+    height: 90%;
+}
+
+.works .line .box img{
+    width: 100%;   
+    height: 100%;
+    border-radius: 4px;
+}
+/* works finished here  */
+
+/* service started here  */
+.service{
+    clear: both;
+    min-height: 48rem;
+    padding: 3%;
+}
+
+.service .sec32 .box{
+    width: 31%;
+    margin: 1%;
+    padding-bottom: 3%;
+    float: left;
+    text-align: center;
+    /* border: 1px solid red; */
+
+}
+
+.service .container .sec32 .box i{
+    color: #48cfae;
+    font-size: 1.7rem;
+    padding-bottom: 4%;
+}
+
+/* service finished here  */
+
+/* section4 started here  */
+.section4{
+    clear: both;
+    height: 30rem;
+    background-image: url(../image/parallax.jpg);
+    color: #ffffff;
+    padding: 5% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section4 .sec4{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section4 .sec4 h2{
+   color: #ffffff;
+   font-size: 3.2rem;
+   font-weight: 400;
+}
+
+.section4 .sec4 p{
+    color: #ffffff;
+    padding: 0%;
+}
+.section4 .sec4 h2 i{
+    color: red;
+    padding: 1%;
+}
+
+/* section4 finished here  */
+
+/* team started here  */
+.team{
+    clear: both;
+    height: 63rem;
+    margin-top: 5%;
+    /* border: 1px solid red; */
+}
+
+.team .sec5bot .box{
+    width: 33%;
+    height: 24rem;
+    padding-left: 3%;
+    float: left;
+    /* border: 1px solid green; */
+}
+
+.team .sec5bot .box img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.team .sec5bot .box h5{
+    font-family: var(--font-primary);
+    font-size: 1.3rem;
+    color: var(--text-secondary-color);
+    text-transform: uppercase; 
+    padding: 4% 0 0.5%;
+}
+
+.team h6{
+    color: #aab2bd;
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/* team finished here  */
+
+/* counter started here  */
+.counter{
+    clear: both;
+    min-height: 15rem;
+    padding-top: 5%;
+}
+
+.counter .container{
+    width: 85%;
+}
+.counter .box{
+    width: 23%;
+    float: left;
+    padding-left: 10%;
+}
+
+.counter .box ul{
+    list-style: none;
+}
+
+.counter .box .sec61{
+    float: left;
+}
+
+.counter .box .sec61 i{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.counter .box .sec62{
+    float: left;
+    padding-left: 10%;
+}
+
+.counter .box .sec62 h3{
+    font-family: var(--font-secondary);
+    color: var(--text-secondary-color);
+    font-size: 2rem;
+}
+
+.counter .box .sec62 h5{
+    font-family: var(--font-primary);
+    color: #aab2bd;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}    
+/* counter finished here  */
+
+/* prices started here  */
+.prices{
+    clear: both;
+    min-height: 50rem;
+    text-align: center;
+    background-color: #f3f4f8;
+    /* border: 1px solid red; */
+}
+
+.prices h2{
+    font-family: var(--font-primary);
+    color: var(--text-primary-color);
+    text-transform: uppercase;
+    padding: 4% 0;
+}
+
+.prices p{
+    font-family: var(--font-secondary);
+    color: var(--text-secondary-color);
+    padding: 0 0 4%;
+
+}
+
+.prices .sec7 .box{
+    width: 33%;
+    float: left;
+    padding-left: 3%;
+}
+
+.prices .sec7 .box .title{
+    text-transform: uppercase;
+    font-family: var(--font-primary);
+    color: var(--text-secondary-color);
+    background-color: #f9f9fb;
+    font-size: 2rem;
+    padding: 7%;
+    /* border: 1px solid greenyellow; */
+}
+
+.prices .sec7 .box2{
+    padding: 7%;
+    background-color: #ffffff;
+}
+
+
+.prices .sec7 .box2 .price{
+    color: var(--primary-color);
+    font-family: var(--font-secondary);
+    font-size: 2rem;
+    padding: 1% 0 5%;
+}
+
+.prices .sec7 .box2 button{
+    font-family: var(--font-primary);
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 2% 7%;
+    margin: 5% 0;
+}
+/* prices finished here  */
+
+/* blog started here  */
+.blog{
+    clear: both;
+    padding: 0;
+    margin: 0;
+    margin-top: 5%;
+    height: 62rem;
+    /* border: 1px solid green; */
+}
+
+.blog .container{
+
+}
+.blog .sec81 .box{
+    width: 33%;
+    float: left;
+    /* border: 1px solid red; */
+    padding: 3%;
+
+}
+
+.blog .sec81 .box h3{
+    font-size: 1.1rem;
+    font-family: var(--font-secondary);
+    color: var(--text-primary-color);
+    text-transform: initial;
+}
+
+
+.blog .sec81 .box .date{
+    color: #aab2bd;
+
+}
+
+.blog .sec81 .box p{
+}
+
+
+.blog .sec81 .box button{
+    font-family: var(--font-primary);
+    background-color: #ffffff;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    border: 1px solid var(--primary-color);
+    border-radius: 5%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 2% 5%;
+}
+
+.blog .sec82 button{
+    margin-left: 40%;
+    margin-top: 3%;
+    font-family: var(--font-primary);
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3%;
+    font-size: 1.3rem;
+    padding: 1% 5%;
+    
+}
+/* blog finished here  */
+
+/* contacts started here  */
+.contacts{
+    clear: both;
+    background-color: var(--background-color);
+    padding: 3% 0 8%;
+    
+}
+.contacts p{
+    margin: 0;
+    padding: 0;
+}
+
+.contacts .container{
+    width: 50%;
+    min-height: 40rem;
+
+    /* border: 1px solid red; */
+}
+
+.contacts .container .box{
+    width: 27%;
+    float: left;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.contacts .container .sec91{
+    clear: both;
+    margin-left: 9%;
+    /* border: 1px solid red; */
+
+}
+
+.contacts .container .box h3{
+    font-family: var(--font-primary);
+    color: var(--text-secondary-color);
+    text-transform: uppercase;
+    padding-top: 32%;
+}
+
+
+.contacts .container .box.box1, .box.box2{
+    margin-left: 5%;
+}
+
+.contacts .container .box.box1 p{
+    color: #48cfae;
+}
+
+.contacts .container form{
+    clear: both;
+    width: 84%;
+    height: 30rem;
+    padding: 9% 0;
+    margin-left: 7%;
+    /* background-color: red; */
+}
+
+.contacts .container form input{
+    width: 100%;
+    padding: 2%;
+    margin: 2% 0;
+    border-radius: 3%;
+    border:1px solid #e6e9ee;
+
+}
+.contacts .container form .sec92 input{
+    width: 46.6%;
+}
+
+.contacts .container form .email{
+    margin-left: 6%;
+}
+
+.contacts .container form textarea{
+    width: 100%;
+    height: 15rem;
+    margin-top: 2%;
+    font-family: var(--font-secondary);
+    padding: 2%;
+    border:1px solid #e6e9ee;
+
+}
+
+.contacts .container .sec93 button{
+
+    font-family: var(--font-primary);
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3%;
+    font-size: 1.3rem;
+    padding: 1% 5%;
+    margin-left: 35%;
+}
+
+/* contacts finished here  */
+
+/* footer started here  */
+.footer{
+    clear: both;
+    height: 13rem;
+    background-color: #333;
+    padding: 5% 0;
+}
+
+.footer .box{
+    width: 30%;
+    float: left;
+    color: #ffffff;
+    /* background-color: green; */
+    margin: 1%;
+    padding-top: 1%;
+    
+}
+
+.footer .footsec1 img{
+    width: 20%;
+
+}
+.footer .footsec2{
+    padding-left: 5%;
+}
+
+.footer .footsec2 i{
+    padding-left: 7%;
+}
+
+
+.footer .footsec3 p{
+    color: #ffffff;
+    padding-left: 65%;
+}
+/* footer finished here  */
+
